@@ -1,0 +1,176 @@
+@font-face {
+    font-family: pop;
+    src: url(./Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px 20px;
+    background-color: #def5fa; */
+    /* background-color: lightblue; */
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.about-section-area-2ndpage {
+    height: 40%;
+}
+
+.gum-para {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    padding-left: 160px;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        width: 90%;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.chewing-gum {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    /* background-color: red; */
+}
+
+.chewing-gumarea {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    padding: 50px 0;
+    gap: 100px;
+}
+
+.chewing-gum-left-area {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    background-image: url(./assets/chewing-gum.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 20px;
+}
+
+.chewing-gum-right-area {
+    width: 40%;
+    /* background-color: yellow; */
+    h1{
+        font-size: 3rem;
+    }
+            span{
+            font-style: italic;
+            font-weight: 300;
+        }
+        p{
+           color: rgb(131, 131, 131);
+           padding-top: 7px;
+           font-size: 16px;
+        }
+}
+
+.chewing-gum-box-area {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    margin-top: 20px;
+    /* background-color: rgb(137, 86, 86); */
+
+    .g-Box-area {
+        padding: 30px;
+        background-color: #def6fa;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 20px;
+    }
+
+    i {
+        padding: 8px;
+        background-color: #017b94;
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+    p{
+        color: black;
+    }
+
+    .gumBox {
+        width: 100%;
+        height: auto;
+        /* background-color: yellow; */
+        /* padding: 20px; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+
+    }
+
+    .gum-box {
+        width: 40%;
+        height: auto;
+        /* background-color: rgb(57, 41, 41); */
+        /* padding: 20px; */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2 {
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .gBox {
+        width: 80%;
+    }
+    .gum-text{
+        line-height: 16px;
+    }
+}
+.bbb{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    background-image: url(./assets/ball-bubble-gum.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 20px;
+}

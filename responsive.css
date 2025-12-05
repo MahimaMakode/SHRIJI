@@ -1,0 +1,605 @@
+/* Responsive styles for mobile devices up to 600px */
+
+@media (max-width: 1150px) {
+.landing-page-contain{
+    width: 60%;
+}
+    .landing-page-text h1 {
+        font-size: 34px;
+    }
+        .landing-page-bottom-contain{
+    gap: 50px;
+    /* background-color: red; */
+}
+.landing-page-bottom-contain p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+
+    .about-area {
+        width: 92%;
+    }
+
+
+    .recipe-section-area {
+
+        padding: 60px 30px;
+    }
+
+    .recipe-bottom-area {
+        flex-direction: column;
+    }
+
+    .recipe-part-area {
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .footer-section-content{
+  padding: 20px 20px;
+}
+.footer-anchor{
+    gap: 15px;
+}
+
+
+}
+
+@media (max-width: 980px) {
+.landing-page-contain{
+    width: 80%;
+}
+    .landing-page-text h1 {
+        font-size: 40px;
+    }
+    .landing-page-bottom-contain{
+    gap: 90px;
+    /* background-color: red; */
+}
+.landing-page-text hr{
+    margin-top: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.121);
+}
+
+
+    .about-area {
+        width: 92%;
+    }
+    .about-section-class hr{
+display: none;
+}
+    .about-bottom-features{
+        flex-direction: column;
+        align-items: center;
+                gap: 20px;
+                padding: 50px 0;
+        /* background-color: red; */
+    }
+    
+.box {
+    text-align: center;
+width: 90%;
+}
+    .box-1{
+    border-top: 1px solid #00000061;
+    border-left: none;
+}
+.box-2{
+    border-top: 1px solid #00000061;
+    border-left: none;
+}
+
+    .recipe-section-area {
+        padding: 60px 30px;
+    }
+
+    .recipe-bottom-area {
+        flex-direction: column;
+    }
+
+    .recipe-part-area {
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    /* home  */
+    .nav-header{
+        position: relative;
+    }
+    .nav-item{
+        position: relative;
+    }
+    .res-icon {
+        display: block;
+        font-size: 25px;
+    }
+    
+    .nav-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        box-shadow: 2px 2px 10px black;
+        height: fit-content;
+        height: auto;
+        position: absolute;
+        border-radius: 20px;
+        left: 0;
+        top: -1000%;
+        /* left: 3%; */
+        z-index: 9999;
+        background: #017b94;
+        gap: 30px;
+        margin: 0;
+        padding: 45px 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-menu .icon-area {
+        display: flex !important;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: wheat;
+    }
+
+    .nav-menu .area-icon i {
+        border: 1px solid aliceblue;
+        color: aliceblue;
+    }
+
+    .nav-item>.icon-area {
+        display: none;
+    }
+
+    .nav-menu li {
+        margin: 2px 0;
+    }
+
+    .nav-menu li a {
+        font-size: 20px;
+        font-weight: 600;
+        color: aliceblue;
+
+    }
+
+    .nav-menu.toggle {
+        position: absolute;
+        top: 96px;
+        /* left: 5%; */
+    }
+    .primary-btn-nav{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: pop;
+    }
+
+    .about-top-area {
+        flex-direction: column;
+    }
+    .content {
+        width: 80%;
+    }
+           .recipe-content{
+        width: 100%;
+        }
+    .recipe-content p{
+        width: 100%;
+        padding: 0 0;
+
+    }
+    .certificate-content{
+        width: 80%;
+    }
+        .footer-section-content{
+  padding: 20px 0px;
+  /* background-color: red; */
+}
+.left-area{
+    width: 70%;
+    /* background-color: pink; */
+    align-items: center;
+    text-align: center;
+}
+.left-content{
+    padding: 0 30px;
+    /* background-color: blue; */
+}
+.right-area{
+  width: 70%;
+/* background-color: yellow; */
+text-align: center;
+  padding: 10px 0;
+
+}
+
+.right-area p{
+  padding-bottom:20px ;
+}
+.input-area{
+  justify-content: center;
+  gap: 10px;
+}
+#email-id{
+  padding: 10px 20px;
+  width: 400px;
+  border-radius: 5px 5px;
+}
+
+::placeholder{
+  text-align: center;
+}
+.sub-btn{
+      width: 400px;
+   padding: 10px 50px;
+     border-radius:5px 5px 5px 5px;
+}
+
+.footer-anchor{
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   /* background-color: red; */
+}
+.footer-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+}
+
+
+@media (max-width: 750px) {
+    
+    .landing-page-contain {
+        width: 90%;
+    }
+
+.box {
+    text-align: center;
+width: 100%;
+}
+    /* recipe-bottom-area  */
+    .recipe-section-area {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .round-img img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .recipe-bottom-area {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .about-section-class {
+        padding: 20px 0;
+    }
+
+    .recipe-part2 {
+        width: 340px;
+    }
+
+    .recipe-part2-content{
+margin-bottom: 10px;
+}
+.recipe-part2-content h1{
+  font-size: 40px;
+}
+.recipe-part2-content p{
+  font-size: 13px;
+}
+.recipe-part2-box img{
+  width: 330px;
+  height: 230px;
+}
+
+    .landing-page-bottom-contain {
+        gap: 20px;
+    }
+
+    .part-content {
+        width: 80%;
+    }
+
+    .recipe-part2-box img {
+        width: 280px;
+        height: 230px;
+    }
+
+    .recipe-part-area {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .recipe-main-title {
+        font-size: 30px;
+    }
+
+
+    /* footer  */
+    .footer-section-content {
+        padding: 0;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .left-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-area {
+        width: 80%;
+        align-items: center;
+
+    }
+
+    .left-content h2 {
+        font-size: 16px;
+    }
+
+
+    .right-area {
+        padding: 0;
+        width: 80%;
+    }
+
+    .right-area input {
+        outline: none;
+        color: whitesmoke;
+        margin-bottom: 8px;
+    }
+
+    .sub-btn {
+        padding: 10px 20px;
+    }
+
+    .footer-section-content hr {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-bottom-area {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .footer-barea {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        background-color: #fff;
+    }
+
+    .footer-anchor {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-icon {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    /* .footer-bottom-area {
+        flex-direction: column;
+        padding: 20px 50px;
+        gap: 20px;
+    } */
+
+   #email-id{
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 5px 5px;
+}
+
+::placeholder{
+  text-align: center;
+}
+.sub-btn{
+      width: 300px;
+   padding: 10px 50px;
+     border-radius:5px 5px 5px 5px;
+}
+        .recipe-content{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .recipe-content p{
+        width: 100%;
+        /* background-color: red; */
+
+    }
+        .certificate-content{
+        width: 80%;
+        padding: 20px;
+    }
+    .footer-icon{
+        gap: 0;
+        padding: 0;
+    }
+    .footer-bottom-area{
+  width: 100%;
+  margin-left: 0px;
+}
+    .footer-barea{
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        margin-left: 0;
+        /* background-color: red; */
+    }
+    .left-content h2{
+        font-size: 20px;
+    }
+
+   
+}
+
+.left-area-mission{
+    width: 100%;
+    height: 50%;
+}
+.right-area-vission{
+    width: 100%;
+    height: 50%;
+}
+ 
+
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        padding: 10px 10px;
+    }
+
+    .landing-page-contain {
+        width: auto;
+        padding-top: 50px;
+    }
+
+    .landing-page-text h1 {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    .landing-page-btn {
+        padding-top: 12vw;
+        padding: 40px 0;
+    }
+    .features{
+        align-items: start;
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+
+
+    .container {
+        width: 100%;
+        /* Full width for container */
+        padding: 0;
+        /* Remove padding */
+    }
+
+
+
+    /* about  */
+    .about-image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primary-btn {
+
+        padding: 12px 13px;
+
+        font-size: 12px;
+
+    }
+
+    .about-area {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content {
+        width: auto;
+        padding: 10px;
+    }
+
+    .about-section-class hr {
+        left: 0;
+    }
+
+    .about-top-area {
+        flex-direction: column;
+    }
+
+.box {
+    text-align: center;
+width: 80%;
+}
+
+    .round-img img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    /* product-section  */
+    .product-section {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+    .productbox {
+        border-radius: 12px;
+
+    }
+        .certificate-content{
+        width: 80%;
+        padding: 0;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 450px) {
+.landing-page-bottom-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* background-color: red; */
+}
+.landing-page-bottom-contain p{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    /* background-color: pink; */
+    margin-left: 38%;
+}
+.features{
+    gap: 0;
+}
+}
+
+
+.contact-a-btn{
+    text-decoration: none;
+    color: aliceblue;
+}

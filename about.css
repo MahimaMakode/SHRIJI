@@ -1,0 +1,922 @@
+@font-face {
+    font-family: pop;
+    src: url(./Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px 20px;
+    background-color: #def5fa; */
+    /* background-color: lightblue; */
+}
+
+.about-section-area-2ndpage {
+    height: 40%;
+}
+
+.vision-mission-page {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.vision-mission {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    padding: 40px 30px;
+    /* background-color: red; */
+    gap: 90px;
+
+    h1 {
+        font-size: 3rem;
+        padding: 10px 0;
+        font-family: pop;
+    }
+
+    span {
+        font-weight: 200;
+    }
+
+    p {
+        line-height: 22px;
+    }
+
+    .left-area-mission {
+        width: 40%;
+        height: 50%;
+        /* background-color: yellow; */
+
+    }
+
+    .right-area-vission {
+        width: 40%;
+        height: 50%;
+        /* background-color: pink; */
+    }
+}
+
+.Whychooseus-section-class {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.Whychooseus-area {
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.why-left-area {
+    /* background-color: red; */
+    padding: 25px 20px;
+
+    .content {
+        width: 100%;
+    }
+
+    .content p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .why-left-content {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 0;
+        /* position: relative; */
+    }
+
+    .why-left-content h2 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+
+    .why-left-content p {
+        width: 80%;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .why-icon {
+        position: relative;
+        top: 7px;
+    }
+
+    .why-icon i {
+        font-size: 25px;
+        background-color: #017b94;
+        color: white;
+        padding: 8px 8px;
+        border-radius: 50%;
+
+    }
+}
+
+
+.why-right-area {
+    width: 60%;
+    /* background-color: pink; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    padding: 20px 40px;
+
+    .why-1st-img-area {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .why-1st-img {
+        width: 290px;
+        height: 400px;
+        background: url(./assets/chewing-gum.jpg);
+        position: relative;
+
+        .why-1st-icon i {
+            background-color: #017b94;
+            font-size: 30px;
+            padding: 5px 5px;
+            border-radius: 50%;
+            color: white;
+
+        }
+
+        .why-1st-img-content-text {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.304);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px 0;
+
+            h2 {
+                font-size: 1.3rem;
+                padding: 2px 0;
+
+            }
+        }
+
+    }
+
+    .why-2nd-imgbox {
+        display: flex;
+        flex-direction: column;
+        background-color: #017b94;
+        padding: 20px 40px;
+        border-radius: 20px;
+        color: white;
+
+        p {
+            padding-top: 7px;
+            padding-bottom: 15px;
+        }
+
+        .why-img-group {
+            display: flex;
+
+            img {
+                width: 45px;
+                height: 45px;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-left: -10px;
+                /* Overlap the avatars */
+                object-fit: cover;
+            }
+        }
+
+    }
+
+    .why-2st-img-area {
+        /* background-color: rgb(24, 24, 8); */
+        display: flex;
+        flex-direction: column;
+
+        .why-3st-img img {
+            width: 190px;
+            height: 190px;
+        }
+
+        .why-4nd-img img {
+            width: 290px;
+            height: 410px;
+            border-radius: 20px;
+        }
+    }
+}
+
+/* skill-area */
+
+.skill-area-section {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 50px 20px;
+
+}
+
+.skill-area-content {
+    /* background-color: pink; */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* padding: 20px 0; */
+    padding: 50px 50px;
+
+    .content {
+        width: 100%;
+    }
+}
+
+.skill-box-area {
+    /* background-color: yellow; */
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+
+    .skill-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .skill-box-content {
+        width: 300px;
+        height: 350px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        padding: 10px 0;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+
+    .sbox {
+        background-image: url(https://cdn.vectorstock.com/i/1000v/32/85/male-person-icon-man-design-graphic-vector-9473285.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sbox1 {
+        background-image: url(https://thumbs.dreamstime.com/b/female-graphic-designer-38165817.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.testimonials-section {
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    /* padding: 30px; */
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.testimonials-section-area {
+    width: 100%;
+    height: auto;
+    /* background-color: pink; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.testimonials-left-area {
+    /* background-color: yellow; */
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: pink; */
+
+    .content {
+        width: 100%;
+
+        h1 {
+            font-size: 2.8rem;
+        }
+    }
+
+    .test-paragraph p {
+        width: 80%;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 23px;
+    }
+
+    .customer {
+        display: flex;
+        gap: 10px;
+        padding: 20px 0;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+
+    hr {
+        border-color: rgba(255, 255, 255, 0.272);
+        margin-bottom: 25px;
+    }
+
+    .testimonials-bottom-area {
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: start;
+        gap: 80px;
+
+        .test-bottom {
+            width: 150px;
+            padding: 10px 0;
+
+            .stat-item {
+                font-size: 30px;
+            }
+
+            p {
+                padding-left: 5px;
+                padding: 10px 0;
+                line-height: 23px;
+            }
+        }
+    }
+}
+
+.testimonials-right-area {
+    width: 420px;
+    height: 590px;
+    padding: 40px 10px;
+    /* background-color: palegreen; */
+
+    .test-img {
+        width: 100%;
+        height: 100%;
+        background: url(https://www.next.us/cms/resource/blob/682046/f3f21e3b7dbc3a8acb9172dc053eef1c/170924-trending-feature-1-mens-data.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 70px;
+        color: white;
+    }
+
+    .test-img-content {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.125), rgba(255, 255, 255, 0.109));
+        backdrop-filter: blur(5px);
+        padding: 10px;
+        border-radius: 10px;
+
+        .test-icon i {
+            font-size: 20px;
+            padding: 8px;
+            border-radius: 50%;
+            background-color: #8c5f3c;
+            position: relative;
+            top: 5px;
+        }
+
+    }
+}
+
+.Questions-section {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+
+.Questions-section-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.question-left-area {
+    width: 50%;
+    height: auto;
+
+    /* background-color: yellow; */
+    .content {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .why-2nd-imgbox {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: #017b94;
+        padding: 20px 40px;
+        border-radius: 20px;
+        color: white;
+
+        p {
+            padding-top: 7px;
+            padding-bottom: 15px;
+        }
+
+        .why-img-group {
+            display: flex;
+
+            img {
+                width: 45px;
+                height: 45px;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-left: -10px;
+                /* Overlap the avatars */
+                object-fit: cover;
+            }
+        }
+
+    }
+}
+
+.question-right-area {
+    width: 50%;
+    height: auto;
+
+    padding: 20px;
+
+    .question-right-area-section {
+        flex: 1.3;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .faq-item {
+        background-color: #d9f0fa;
+        border-radius: 8px;
+        /* padding: 12px 16px; */
+        transition: background-color 0.3s ease;
+    }
+
+    .faq-item.active {
+        background-color: #d9f0fa;
+    }
+
+    .active span {
+        background-color: black;
+    }
+
+    .faq-question {
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;
+        color: #004855;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 16px;
+    }
+
+    .faq-icon {
+        background-color: #007b8c;
+        color: white;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+        font-size: 18px;
+        user-select: none;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+        font-weight: 400;
+        color: #555;
+        /* margin-top: 8px; */
+        padding-left: 4px;
+        line-height: 20px;
+        padding: 12px 16px;
+
+
+    }
+
+    hr {
+        border-width: 100%;
+        border-color: rgba(0, 0, 0, 0.077);
+        margin: 5px 0;
+    }
+
+}
+
+
+/* Responsive about page */
+
+@media (max-width: 1150px) {
+    .testimonials-section {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 980px) {
+    .vision-mission-page {
+        width: 100%;
+        height: auto;
+    }
+
+    .vision-mission {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .left-area-mission {
+            width: 90%;
+            height: auto;
+
+        }
+
+        .right-area-vission {
+            width: 90%;
+            height: auto;
+        }
+
+        h1 {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+
+    }
+
+    .Whychooseus-section-class {
+        width: 100%;
+        height: auto;
+    }
+
+    .Whychooseus-area {
+        flex-direction: column;
+        padding: 20px;
+
+        .why-right-area {
+            width: 100%;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .skill-area-content {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        /* padding: 20px 0; */
+        padding: 20px 0px;
+
+        .content h1 {
+            font-size: 2rem;
+            line-height: 30px;
+        }
+    }
+
+    .testimonials-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials-section-area {
+        flex-direction: column;
+        align-items: center;
+
+        .testimonials-left-area {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            p {
+                width: 100%;
+                text-align: center;
+            }
+
+            .testimonials-bottom-area {
+                /* width: 100%; */
+                gap: 15px;
+
+                .test-bottom p {
+                    /* text-align: center; */
+                    padding-left: 0;
+                    margin: 0;
+                }
+            }
+
+        }
+
+        .testimonials-right-area {
+            width: 100%;
+
+            .test-img {
+                padding: 10px 20px;
+            }
+
+            .test-img-content {
+                p {
+                    font-size: 15px;
+                }
+
+                h2 {
+                    font-size: 1.2rem;
+                }
+
+                .test-icon i {
+                    font-size: 15px;
+                    padding: 5px;
+
+                }
+            }
+        }
+    }
+
+    .Questions-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .Questions-section-area {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        /* text-align: center; */
+        .question-left-area {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: green; */
+            align-items: center;
+            justify-content: center;
+
+            .content {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .question-right-area {
+            /* background-color: pink; */
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+
+}
+
+@media (max-width: 750px) {
+
+
+    .vision-mission {
+        padding: 10px 0px;
+
+        /* background-color: red; */
+        .left-area-mission {
+            width: 100%;
+            height: auto;
+
+        }
+
+        .right-area-vission {
+            width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+    .why-left-area {
+        .content{
+             h1{
+            font-size: 2rem;
+            line-height: 30px;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .why-left-content{
+        gap: 5px;
+        h2{
+            font-size: 1.2rem;
+        }
+        i{
+             font-size: 18px;
+        padding: 5px 5px;
+        }
+       
+    }
+}
+
+    .why-right-area {
+        flex-direction: column-reverse;
+    }
+
+    .why-1st-img-area {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-2st-img-area {
+        width: 100%;
+        height: auto;
+        align-items: center;
+
+    }
+
+    .skill-area-content {
+        .content h1 {
+            font-size: 1.5rem;
+            line-height: 25px;
+        }
+    }
+
+    .testimonials-section-area {
+        gap: 5px;
+    }
+
+    .testimonials-left-area {
+        width: 100%;
+        gap: 5px;
+
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            /* background-color: pink; */
+            h1 {
+                font-size: 2rem;
+                line-height: 30px;
+            }
+        }
+
+        .test-paragraph {
+            width: 80%;
+        }
+
+        .test-bottom {
+            margin: 0px 0px;
+        }
+
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .about-top-area {
+        padding: 20px;
+        .content h1 {
+            font-size: 2rem;
+            line-height: 30px;
+            
+        }
+    }
+
+
+
+    .testimonials-bottom-area {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        align-items: center;
+
+        .test-bottom {
+            margin: 0px 0;
+        }
+
+    }
+
+    .Questions-section {
+        padding: 20px 10px;
+    }
+
+    .question-left-area {
+        width: 100%;
+
+        .content {
+            padding-bottom: 10px;
+        }
+
+        .content h1 {
+            font-size: 2rem;
+            line-height: 30px;
+        }
+
+        .why-2nd-imgbox {
+            width: 90%;
+        }
+    }
+
+    .faq-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    .vision-mission {
+        padding: 10px 0px;
+
+        /* background-color: red; */
+        .left-area-mission {
+            width: 100%;
+            height: auto;
+
+        }
+
+        .right-area-vission {
+            width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
